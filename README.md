@@ -15,4 +15,6 @@ expressjs - The server for handling and routing HTTP requests
 pug - For templating the markup
 
 ## Application Structure
-- views/ - This folder contains
+- views/ - This folder contains pug files for the template
+- public/ - This folder contains necessay css and client side JS for the project. 
+-
