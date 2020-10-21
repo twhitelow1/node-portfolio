@@ -8,3 +8,11 @@ To get the Node Server running locally:
 - Clone this repo ```gh repo clone twhitelow1/node-portfolio```
 - ```npm install``` to install all required dependencies
 - ```npm start``` to start the local server
+
+# Code Overview
+## Dependencies
+expressjs - The server for handling and routing HTTP requests
+pug - For templating the markup
+
+## Application Structure
+- views/ - This folder contains
