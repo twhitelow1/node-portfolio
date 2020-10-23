@@ -29,7 +29,13 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/projects/:id', (req, res) => {
-  res.render('project', { title: 'Project' });
+  const projectId = req.params.id;
+  const project = projects.projects.find(({ id }) => id === +projectId);
+  if (project) {
+    res.render('project', { title: 'Project', project });
+  } else {
+    res.sendStatus(404);
+  }
 });
 
 app.listen(PORT, () => {
