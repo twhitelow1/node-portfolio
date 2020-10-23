@@ -1,0 +1,82 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Marvel Quote Generator",
+      "description": "This was my first of 10 unit projects for my techdegree at Treehouse. This project uses modern html and css with some plain vanilla javascript. An array of quotes stores the quotes that are selected by generating a random number using the Math function then using it as the index of the array. For extra credit every so many secs a new quote is generated automatically. Also the background color changes on every new quote, it uses the random number function as well to generate the random color.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Vanilla Javascript"
+      ],
+      "live_link": "https://twhitelow1.github.io/random-quote-generator/",
+      "github_link": "https://github.com/twhitelow1/random-quote-generator",
+      "image_urls": [
+        "/images/project-screens/treehouse-projects/quotegen-500x500.jpg"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Student Directory",
+      "description": "Started with a page that contains a list of 54 student names, photos and email addresses. Wrote Vanilla JavaScript to display 10 names at a time, and added a pagination menu below the names. While making these improvements, I used the principle of 'progressive enhancement.' The page still displays the students' names without JavaScript turned on, but is much improved (enhanced) with the JavaScript programming added. In other words, I added JavaScript to paginate and improve the project, without altering the project in such a way that JavaScript is required to use the web page. The pagination solution works with a list of any number of students, not just with the supplied list of 54 students. This means this solution is flexible enough to respond to lists of different lengths.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Vanilla Javascript"
+      ],
+      "live_link": "https://twhitelow1.github.io/pagination",
+      "github_link": "https://github.com/twhitelow1/pagination",
+      "image_urls": [
+        "/images/project-screens/treehouse-projects/student-directory-500x500.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Full Stack Conference Form",
+      "description": "Used JavaScript to enhance an interactive registration form for a fictional conference called 'FullStack Conf.' I used the supplied HTML and CSS files, and added JavaScript to make the form more user-friendly by: adding customized and conditional behavior and interactivity, validate user input and providing helpful error messages when the user enters invalid information into the form fields.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Vanilla Javascript"
+      ],
+      "live_link": "https://twhitelow1.github.io/survey-form",
+      "github_link": "https://github.com/twhitelow1/survey-form",
+      "image_urls": [
+        "/images/project-screens/treehouse-projects/student-500x500.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Star Wars Phrase Hunter",
+      "description": "Created a browser-based, star wars quote word guessing game. Used Javascript and OOP to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard. The code chooses a random phrase, splits the phrase into letters, and puts those letters onto the gameboard. Each time the player guesses a letter, the program compares the letter the player has chosen with the random phrase. If the letter is in the phrase, the gameboard displays the chosen letters on the screen. A player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose). If the player completes the phrase before they run out of guesses, a winning screen appears. If the player guesses incorrectly five times, a losing screen appears. A player can guess a letter only once. After they’ve guessed a letter,  the code disables that letter on the onscreen keyboard.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "OOP",
+        "Vanilla Javascript"
+      ],
+      "live_link": "https://twhitelow1.github.io/oop-game",
+      "github_link": "https://github.com/twhitelow1/oop-game",
+      "image_urls": [
+        "/images/project-screens/treehouse-projects/starwars-phrasehunter-500x500.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Awesome Startup Directory",
+      "description": "Built an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. Using the Random User Generator API I grabbed the information for 12 random 'employees' and use that data to build a prototype for an Awesome Startup employee directory. I requested a JSON object from the API and parsed the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee's image or name opens a modal window with more detail information.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "OOP",
+        "Ajax",
+        "Vanilla Javascript"
+      ],
+      "live_link": "https://twhitelow1.github.io/student-directory",
+      "github_link": "https://github.com/twhitelow1/student-directory",
+      "image_urls": [
+        "/images/project-screens/treehouse-projects/employee-directory-500x500.jpg"
+      ]
+    }
+  ]
+}
