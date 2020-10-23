@@ -21,7 +21,7 @@ fs.readFile('data.json', (err, data) => {
 
 // Routes
 app.get('/', (req, res) => {
-  res.render('index', { title: 'Home' });
+  res.render('index', { projects: projects.projects });
 });
 
 app.get('/about', (req, res) => {
