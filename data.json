@@ -12,7 +12,10 @@
       "live_link": "https://twhitelow1.github.io/random-quote-generator/",
       "github_link": "https://github.com/twhitelow1/random-quote-generator",
       "image_urls": [
-        "/images/project-screens/treehouse-projects/quotegen-500x500.jpg"
+        "/images/project-screens/treehouse-projects/quotegen-500x500.jpg",
+        "/images/project-screens/treehouse-projects/quotegen-1200x500-1.jpg",
+        "/images/project-screens/treehouse-projects/quotegen-1200x500-2.jpg",
+        "/images/project-screens/treehouse-projects/quotegen-1200x500-3.jpg"
       ]
     },
     {
@@ -27,7 +30,8 @@
       "live_link": "https://twhitelow1.github.io/page-dom",
       "github_link": "https://github.com/twhitelow1/page-dom",
       "image_urls": [
-        "/images/project-screens/treehouse-projects/student-directory-500x500.jpg"
+        "/images/project-screens/treehouse-projects/student-directory-500x500.jpg",
+        "/images/project-screens/treehouse-projects/student-directory-1200x500-1.jpg"
       ]
     },
     {
@@ -42,7 +46,8 @@
       "live_link": "https://twhitelow1.github.io/survey-form",
       "github_link": "https://github.com/twhitelow1/survey-form",
       "image_urls": [
-        "/images/project-screens/treehouse-projects/survey-500x500.jpg"
+        "/images/project-screens/treehouse-projects/survey-500x500.jpg",
+        "/images/project-screens/treehouse-projects/survey-1200x500-1.jpg"
       ]
     },
     {
@@ -58,7 +63,10 @@
       "live_link": "https://twhitelow1.github.io/oop-game",
       "github_link": "https://github.com/twhitelow1/oop-game",
       "image_urls": [
-        "/images/project-screens/treehouse-projects/starwars-phrasehunter-500x500.jpg"
+        "/images/project-screens/treehouse-projects/starwars-phrasehunter-500x500.jpg",
+        "/images/project-screens/treehouse-projects/starwars-phrasehunter-1200x500-1.jpg",
+        "/images/project-screens/treehouse-projects/starwars-phrasehunter-1200x500-2.jpg",
+        "/images/project-screens/treehouse-projects/starwars-phrasehunter-1200x500-3.jpg"
       ]
     },
     {
@@ -75,7 +83,10 @@
       "live_link": "https://twhitelow1.github.io/student-directory",
       "github_link": "https://github.com/twhitelow1/student-directory",
       "image_urls": [
-        "/images/project-screens/treehouse-projects/employee-directory-500x500.jpg"
+        "/images/project-screens/treehouse-projects/employee-directory-500x500.jpg",
+        "/images/project-screens/treehouse-projects/employee-directory-1200x500-1.jpg",
+        "/images/project-screens/treehouse-projects/employee-directory-1200x500-2.jpg",
+        "/images/project-screens/treehouse-projects/employee-directory-1200x500-3.jpg"
       ]
     }
   ]
