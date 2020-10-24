@@ -25,15 +25,20 @@ app.get('/test-error', (req, res, next) => {
   next(err);
 });
 
-// Routes
+/* Routes */
+
+// Index Route
 app.get('/', (req, res) => {
-  res.render('index', { projects: projects.projects });
+  res.render('index', { projects: projects.projects }); // pass the projects data
 });
 
+// About route
 app.get('/about', (req, res) => {
   res.render('about', { title: 'About' });
 });
 
+// Project route. Grabs product id from url params, 
+// then selects the project from the array and reders page accordingly
 app.get('/projects/:id', (req, res) => {
   const projectId = req.params.id;
   const project = projects.projects.find(({ id }) => id === +projectId);
@@ -68,6 +73,7 @@ app.use((err, req, res, next) => {
   }
 });
 
+// Start server on set port. 
 app.listen(PORT, () => {
   console.log(`Server started and app listening at http://localhost:${PORT}`);
 });
