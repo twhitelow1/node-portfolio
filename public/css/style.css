@@ -31,11 +31,11 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button{
-  background-color: #333;
+  background-color: #1b998b;
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #0b3e39;
 }
 
 a{
@@ -58,14 +58,19 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #1b998b;
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: rgb(45, 45, 45);
+    text-shadow: 0 0 2px rgba(10, 10, 10, 0.2);
+  }
+
+  .portfolio-me h5{
+    text-shadow: 0 0 2px rgba(10, 10, 10, 0.2);
   }
 
   .portfolio-me a{
@@ -122,10 +127,13 @@ a:hover{
 
   .portfolio-index .cell{
     margin-bottom: 15px;
+    padding: 1em;
+    box-shadow: 0 0 5px 1px rgba(10, 10, 10, 0.2);
   }
 
     .portfolio-index .cell h5{
       letter-spacing: 1px;
+      text-align: center;
     }
 
 .portfolio-meta{
@@ -148,6 +156,7 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
 #notfound {
   position: relative;
   height: 100vh;
