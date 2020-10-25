@@ -39,12 +39,17 @@ app.get('/about', (req, res) => {
 
 // Project route. Grabs product id from url params, 
 // then selects the project from the array and reders page accordingly
-app.get('/projects/:id', (req, res) => {
+app.get('/projects/:id', (req, res, next) => {
   const projectId = req.params.id;
   const project = projects.projects.find(({ id }) => id === +projectId);
   if (project) {
     res.render('project', { title: 'Project', project });
+  } else {
+    const err = new Error('Sorry it appears that this is not the project you were looking for!');
+    err.status = 404;
+    next(err);
   }
+
 });
 
 // Error Handlers
@@ -68,7 +73,10 @@ app.use((err, req, res, next) => {
     res.render('page-not-found');
   } else {
     err.status = 500;
-    err.message = 'Something went wrong on our end, we are working on fixing that for you.'
+    err.message = 'Something went wrong on our end, we are working on fixing that for you.';
+    console.log(`message: ${err.message}`);
+    console.log(err.status);
+    console.log(err.stack);
     res.render('error');
   }
 });
